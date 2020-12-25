@@ -1,4 +1,5 @@
 [![NPM Version](https://badgen.net/npm/v/rollup-plugin-minion?color=red&icon=npm&label=version)](https://npmjs.com/package/rollup-plugin-minion)
+[![Github License](https://badgen.net/github/license/lamualfa/rollup-plugin-minion?color=purple&label=license)](https://github.com/lamualfa/rollup-plugin-minion/blob/master/LICENSE)
 
 # rollup-plugin-minion
 

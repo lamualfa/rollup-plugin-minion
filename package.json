@@ -1,0 +1,20 @@
+{
+  "name": "rollup-plugin-minion",
+  "version": "1.0.0",
+  "description": "Minion Writer for Integration with Rollup",
+  "main": "index.js",
+  "repository": "https://github.com/lamualfa/rollup-plugin-minion",
+  "author": "La Ode Muhammad Al Fatih",
+  "license": "WTFPL",
+  "private": false,
+  "keywords": [
+    "minion",
+    "minion-writer",
+    "rollup",
+    "rollup-plugin"
+  ],
+  "devDependencies": {
+    "minion-js": "https://github.com/lamualfa/minion.git"
+  },
+  "dependencies": {}
+}

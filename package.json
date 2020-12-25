@@ -2,7 +2,7 @@
   "name": "rollup-plugin-minion",
   "version": "1.0.0",
   "description": "Minion Writer for Integration with Rollup",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/lamualfa/rollup-plugin-minion",
   "author": "La Ode Muhammad Al Fatih",
   "license": "WTFPL",
@@ -14,7 +14,12 @@
     "rollup-plugin"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "minion-js": "https://github.com/lamualfa/minion.git"
   },
-  "dependencies": {}
+  "scripts": {
+    "build": "babel src -d dist"
+  }
 }
